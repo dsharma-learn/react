@@ -18,6 +18,18 @@
     - Components of React are reusable across Angular and Vue
     - React is Declarative and Not Imperative (Algorithmic)
     - **Mobile** Application: React Native can be used for developing Native Mobile applications using React
-    - 
+   
 
 ## [Chapter 2 - Hello World](https://www.youtube.com/watch?v=9hb_0TZ_MVI)
+- Prerequisites: 
+  - NodeJS (along with npm)
+  - VS Code 
+  
+- Create Application Using create-react-app:
+    ```
+      $ npx create-react-app my-app
+    ```
+
+
+- 
+  
