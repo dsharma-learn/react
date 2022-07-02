@@ -1,6 +1,7 @@
 [Tutorial from CodeEvolution Channel at Youtube](https://www.youtube.com/watch?v=QFaFIcGhPoM&ab_channel=Codevolution)
 
-
+Notes: 
+- Use ES7 React/Redux/GraphQL/React-N Extension
 
 
 ***Table of Contents***
@@ -10,6 +11,14 @@
 - [Chapter 4 - Components](#chapter-4---components)
 - [Chapter 5 - Functional Components](#chapter-5---functional-components)
 - [Chapter 6 - Class Components ](#chapter-6---class-components-)
+- [Chapter 7 - Hooks Update](#chapter-7---hooks-update)
+- [Chapter 8 - JSX](#chapter-8---jsx)
+- [Chapter 9 - Props](#chapter-9---props)
+- [Chapter 10 - State](#chapter-10---state)
+- [Chapter 11 - setState](#chapter-11---setstate)
+- [Chapter 12 - Desctructing props and State](#chapter-12---desctructing-props-and-state)
+- [Chapter 13 - Event Handling](#chapter-13---event-handling)
+- [Chapter 14 - Binding Event Handlers](#chapter-14---binding-event-handlers)
 
 
 
@@ -128,7 +137,7 @@
 
 
 
-[Chapter 7 - Hooks Update](https://www.youtube.com/watch?v=oecI26cWqzk)
+## [Chapter 7 - Hooks Update](https://www.youtube.com/watch?v=oecI26cWqzk)
 
 - in Version 16.7.0-alpha a new feature has been introduced
 - in 2018 hooks were introduced that lets you use state without creating a class. 
@@ -136,7 +145,7 @@
 - Hooks - Backword compatible. 
 
 
-[Chapter 8 - JSX](https://www.youtube.com/watch?v=7fPXI_MnBOY)
+## [Chapter 8 - JSX](https://www.youtube.com/watch?v=7fPXI_MnBOY)
 
 - JSX
   -  Javascript XML -> Extesion to JavaScript
@@ -145,4 +154,55 @@
   -  Not mandatory to create REact
   -  But helps in making code simple and elegant. 
   -  Transpiles to JavaSCript understood to browsers
-  -  
+-  JSX Differences from regular HTML:
+   -  Class --> className
+   -  for -> htmlFor
+   -  CamelCase property naming 
+      -  onclick = onClick
+      -  tabindex = tabIndex 
+      -  
+
+## [Chapter 9 - Props](https://www.youtube.com/watch?v=m7OWXtbiXX8) 
+
+- to Pass parameters to a component use Props 
+- props.propname can be accessed using {} 
+- if there are multiple elements, they should be incuded in a single element like div
+- props.children will render anything between tag
+- Using props with Class component will be a bit different
+  - props are immutable. Can't be changed. They could only be used in the render() as readonly.
+  - Question: IF props are mutable, how to maintain data? Answer - State
+
+
+## [Chapter 10 - State](https://www.youtube.com/watch?v=4ORZ1GmjaMc)
+
+- Props vs States
+
+| Props                            | State                             |
+| -------------------------------- |  -------------------------------- | 
+| Passed to a component            | Managed within a Component        |
+| Function Paramters               | Variables declared in function body|
+| Immutable. Cant be changed       | Can be changed                    |
+| access via props/this.props      | useState hook and this.stat       |
+
+- Use Constructor to initalize the state
+- State is just a private object that is maintained in a calls to manage state 
+
+
+## [Chapter 11 - setState](https://www.youtube.com/watch?v=uirRaVjRsf4)
+
+
+
+
+
+## Chapter 12 - Desctructing props and State 
+
+
+
+## Chapter 13 - Event Handling 
+
+
+
+## Chapter 14 - Binding Event Handlers
+
+
+

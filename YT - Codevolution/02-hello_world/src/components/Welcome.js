@@ -1,4 +1,4 @@
-// Chapter 5 - Class Components
+// Chapter 6 - Class Components
 
 import React, { Component } from "react";
 
@@ -6,7 +6,7 @@ import React, { Component } from "react";
 class Welcome extends Component {
     
     render() {
-        return <h1>Class Component</h1>
+        return <h1>Chapter 06 - Class Component</h1>
     }
 
 }

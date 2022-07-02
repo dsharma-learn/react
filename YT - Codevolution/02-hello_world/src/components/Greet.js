@@ -8,7 +8,7 @@ import React from 'react'
 
 
 // Option 2: Arrow Functions Approach
-const Greet = () => <h1>Hello Deepak</h1>
+const Greet = () => <h1> Chapter 05 - Functional Components</h1>
 
 // Export Option 1 - Default Export
 export default Greet
