@@ -16,8 +16,8 @@ Notes:
 - [Chapter 9 - Props](#chapter-9---props)
 - [Chapter 10 - State](#chapter-10---state)
 - [Chapter 11 - setState](#chapter-11---setstate)
-- [Chapter 12 - Desctructing props and State](#chapter-12---desctructing-props-and-state)
-- [Chapter 13 - Event Handling](#chapter-13---event-handling)
+- [Chapter 12 - Desctructing props and State ](#chapter-12---desctructing-props-and-state-)
+- [Chapter 13 - Event Handling ](#chapter-13---event-handling-)
 - [Chapter 14 - Binding Event Handlers](#chapter-14---binding-event-handlers)
 
 
@@ -191,14 +191,27 @@ Notes:
 ## [Chapter 11 - setState](https://www.youtube.com/watch?v=uirRaVjRsf4)
 
 
+- Always use setState MEthod and not directly try to set state by using this.state.<state>. It would not reflect on the UI. The value may change in the console. 
+- React wouldnt re-render the component
+- Calls to setState are asynchronous. Thus whats appearing in Log will differ
+- You can pass a callback function - then the values will be synchronzied
+- ** Important:** Whenever you need to access the state immediately after the change, it should not be accessed directly rather through callback function passed as parameter. 
+- Whenever there is a need to execute code immediately after state is updated, place that piece of code in a callback in 2nd argument
+- When need to update state basd on the previous state value, pass in a functin as an argment instead of the regular object
+
+
+- React may group multiple SetState Calls into a single setState calls. That may lead to different behaviour. 
 
 
 
-## Chapter 12 - Desctructing props and State 
 
+## [Chapter 12 - Desctructing props and State ](https://www.youtube.com/watch?v=5_PdMS9CLLI)
 
+- Destructuring is a ES6 feature - that allows get values from arrays into distinct variables. 
+- essentially, take the properties and put them in the function parameters
 
-## Chapter 13 - Event Handling 
+## [Chapter 13 - Event Handling ](https://www.youtube.com/watch?v=Znqv84xi8Vs)
+
 
 
 

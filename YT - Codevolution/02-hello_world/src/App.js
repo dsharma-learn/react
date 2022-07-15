@@ -7,6 +7,10 @@ import GreetUser from './components/GreetUser';
 import WelcomeUser from './components/WelcomeUser';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import GreetDestructureEg from './components/GreetDestructureEg';
+import GreetDestructureFuncBody from './components/GreetDestructureFuncBody';
+import WelcomeUserDestructureProps from './components/WelcomeUserDestructureProps';
+import FunctionalClick from './components/FunctionalClick';
 
 
 function App() {
@@ -45,8 +49,17 @@ function App() {
       
       {/* <h1> Chapter 11 - setState </h1> */}
       <Counter></Counter>
-      
 
+      {/* <h1> Chapter 12 - Destructuring Props and state (functions)</h1> */}
+      <GreetDestructureEg name="Diana" heroName="Wonder Woman"></GreetDestructureEg>
+      
+      {/* <h1> Chapter 12 - Destructuring Props and state (functions)</h1> */}
+      <GreetDestructureFuncBody name="Diana" heroName="Wonder Woman"></GreetDestructureFuncBody>
+      
+      {/* <h1> Chapter 12 - Destructuring Props and state (Class) </h1> */}
+      <WelcomeUserDestructureProps name="Bruce" heroName="Batman"> THis is a test element </WelcomeUserDestructureProps>
+
+      <FunctionalClick></FunctionalClick>
 
     </div>
   ); 
